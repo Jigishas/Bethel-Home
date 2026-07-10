@@ -12,6 +12,7 @@ const Header: React.FC = () => {
             <a href="/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center">
                 <span className="text-white text-xl font-bold">B</span>
+                {/* <img src="./public/Home.jpeg" alt="icon"  style={{borderRadius: "50%"}}/> */}
               </div>
               <span className="text-xl font-bold text-gray-800">Bethel Home</span>
             </a>
