@@ -31,7 +31,7 @@ const Impact: React.FC = () => {
             <div className="text-4xl md:text-5xl font-bold mb-2">12+</div>
             <div className="text-amber-100">Years of Service</div>
           </div>
-          <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-6 text-center text-white">
+          <div className="bg-gradient-to-br from-amber-700 to-amber-900 rounded-2xl p-6 text-center text-white">
             <div className="text-4xl md:text-5xl font-bold mb-2">25+</div>
             <div className="text-amber-100">Success Stories</div>
           </div>
