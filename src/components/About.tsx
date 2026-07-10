@@ -14,12 +14,14 @@ const About: React.FC = () => {
                 </svg>
               </div>
               <div className="bg-amber-200 rounded-2xl h-40 flex items-center justify-center">
-                <span className="text-amber-700 font-semibold">Love</span>
+                {/* <span className="text-amber-700 font-semibold">Love</span> */}
+                <img src="/Donations.jpeg" alt="Love" className="rounded-2xl h-full w-full object-cover" />
               </div>
             </div>
             <div className="space-y-4 pt-8">
               <div className="bg-amber-300 rounded-2xl h-40 flex items-center justify-center">
-                <span className="text-amber-800 font-semibold">Care</span>
+                {/* <span className="text-amber-800 font-semibold">Care</span> */}
+                <img src="/Home.jpeg" alt="Care" className="rounded-2xl h-full w-full object-cover" />
               </div>
               <div className="bg-amber-100 rounded-2xl h-32 flex items-center justify-center">
                 <svg className="w-16 h-16 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
