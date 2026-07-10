@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Pillars from './components/Pillars'
 import Team from './components/Team'
-import Events from './components/Events'
+// import Events from './components/Events'
 import DonationSection from './components/DonationSection'
 import Impact from './components/Impact'
 import FAQ from './components/FAQ'
@@ -19,7 +19,7 @@ function App() {
         <About />
         <Pillars />
         <Team />
-        <Events />
+        {/* <Events /> */}
         <DonationSection />
         <Impact />
         <FAQ />
