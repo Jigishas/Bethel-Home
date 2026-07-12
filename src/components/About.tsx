@@ -55,7 +55,7 @@ const About: React.FC = () => {
             <div className="flex flex-wrap gap-4">
               <div className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-3">
                 <span className="text-amber-700 font-medium">Our Vision</span>
-                <p className="text-gray-600 text-sm mt-1">Every child in a loving family</p>
+                <p className="text-gray-600 text-sm mt-1">A world where every child grows up in a safe, loving family environment, fully empowered to reche their greatest potential.</p>
               </div>
               <div className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-3">
                 <span className="text-amber-700 font-medium">Our Mission</span>
