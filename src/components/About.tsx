@@ -59,7 +59,7 @@ const About: React.FC = () => {
               </div>
               <div className="bg-amber-50 border border-amber-200 rounded-xl px-5 py-3">
                 <span className="text-amber-700 font-medium">Our Mission</span>
-                <p className="text-gray-600 text-sm mt-1">Rescue, protect, nurture</p>
+                <p className="text-gray-600 text-sm mt-1">To Rescue, protect and nurture orphaned and vulnerable children by providing them with a secure home, quality education, holistic healthcare and the emotional support they need to thrive and become responsible, self reliant citizens.</p>
               </div>
             </div>
           </div>
