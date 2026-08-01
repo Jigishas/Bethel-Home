@@ -1,26 +1,26 @@
-import React, { useState } from 'react';
+import React  from 'react';
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   subject: '',
+  //   message: ''
+  // });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   console.log('Form submitted:', formData);
+  //   alert('Thank you for your message! We will get back to you soon.');
+  //   setFormData({ name: '', email: '', subject: '', message: '' });
+  // };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  //   setFormData({
+  //     ...formData,
+  //     [e.target.name]: e.target.value
+  //   });
+  // };
 
   return (
     <section id="contact" className="py-20 bg-gray-50">
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          {/* <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -116,7 +116,7 @@ const Contact: React.FC = () => {
                 Send Message
               </button>
             </form>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div className="space-y-6">
@@ -143,7 +143,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Phone</p>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">254743121169</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
