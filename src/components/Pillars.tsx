@@ -93,6 +93,13 @@ const Pillars: React.FC = () => {
       <div className="mt-12 text-center">
         <img src="/image 5.jpeg" alt="Our Pillars" className="mx-auto rounded-2xl w-xl h-xl shadow-lg" />
       </div>
+      <div className="mt-12 text-center">
+        <img src="/image 6.jpeg" alt="Our Pillars" className="mx-auto rounded-2xl w-xl h-xl shadow-lg" />
+      </div>
+      <div className="mt-12 text-center">
+        <img src="/image 7.jpeg" alt="Our Pillars" className="mx-auto rounded-2xl w-xl h-xl shadow-lg" />
+      </div>
+
       
     </section>
     
