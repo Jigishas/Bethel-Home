@@ -8,15 +8,30 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          {/* <div className="flex-shrink-0">
             <a href="/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center">
                 <span className="text-white text-xl font-bold">B</span>
-                {/* <img src="./public/Home.jpeg" alt="icon"  style={{borderRadius: "50%"}}/> */}
+                <img src="./public/Home.jpeg" alt="icon"  style={{borderRadius: "50%"}}/>
               </div>
               <span className="text-xl font-bold text-gray-800">Bethel Home</span>
             </a>
-          </div>
+          </div> */}
+          <div className="flex-shrink-0">
+  <a href="/" className="flex items-center gap-3">
+    <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center">
+      <img
+        src="/icon.png"
+        alt="Bethel Home Logo"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    <span className="text-xl font-bold text-gray-800">
+      Bethel Home
+    </span>
+  </a>
+</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
