@@ -132,7 +132,9 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Address</p>
-                    <p className="text-gray-600">Londiani.</p>
+                    <p className="text-gray-600"><span>Bethel Faith Home</span> 
+                 <span>P.o.Box 301 </span>
+                <span>Londiani - Kenya</span></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -143,7 +145,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Phone</p>
-                    <p className="text-gray-600">254743121169</p>
+                    <p className="text-gray-600"> +254722458294</p>
+                    <p className="text-gray-600"> +254717539262</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -154,7 +157,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Email</p>
-                    <p className="text-gray-600">info@bethelhome.org</p>
+                    <p className="text-gray-600">bethelchildrenshome8@gmail.Com</p>
                   </div>
                 </div>
               </div>
