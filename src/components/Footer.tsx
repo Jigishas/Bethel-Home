@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
                 </svg>
                 <p>Bethel Faith Home</p> <br/>
                  <p>P.o.Box 301 </p> <br/>
-                <p>Londiani - Kenya</span>
+                <p>Londiani - Kenya</p>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <svg className="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
