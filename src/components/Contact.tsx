@@ -132,8 +132,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Address</p>
-                    <p className="text-gray-600"><span>Bethel Faith Home</span> 
-                 <span>P.o.Box 301 </span>
+                    <p className="text-gray-600"><span>Bethel Faith Home</span><br/> 
+                 <span>P.o.Box 301 </span><br/>
                 <span>Londiani - Kenya</span></p>
                   </div>
                 </div>
