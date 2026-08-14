@@ -15,7 +15,7 @@ const Impact: React.FC = () => {
     {
       name: "Beatrice Koskei",
       role: "Nurse • United States",
-      image: "icon.jpg",
+      image: "icon female.jpg",
       story:
         "Beatrice Koskei's story is one of determination, education and reaching beyond borders. The foundation she received at Bethel Faith Home helped prepare her to pursue her ambitions and build a career in healthcare. Today, Beatrice is a qualified nurse working in the United States. Her journey reflects what is possible when a child is given the opportunity to learn, grow and believe in a future beyond their circumstances.",
       highlight: "From Bethel to a Nursing Career in the USA"
@@ -23,7 +23,7 @@ const Impact: React.FC = () => {
     {
       name: "Eva Maritim",
       role: "Teacher • 10+ Years of Experience",
-      image: "icon.jpg",
+      image: "icon female.jpg",
       story:
         "Eva Maritim has turned her own journey into an opportunity to positively influence the next generation. Today, she is a teacher with more than ten years of professional experience. Through her career, Eva continues to make a difference in the lives of young people by sharing knowledge, encouragement and guidance. Her story represents the power of education not only to transform an individual life, but also to create a ripple effect that reaches many others.",
       highlight: "From a Bethel Child to an Educator"
