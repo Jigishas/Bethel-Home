@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
   </a>
 </div>
             <p className="text-gray-400 leading-relaxed">
-              Providing a safe, loving, and nurturing home for orphaned and vulnerable children since 2013.
+              Providing a safe, loving, and nurturing home for orphaned and vulnerable children since 1985.
             </p>
           </div>
 
