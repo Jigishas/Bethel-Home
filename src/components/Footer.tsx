@@ -55,9 +55,9 @@ const Footer: React.FC = () => {
                 <svg className="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.776-4.776a1 1 0 011.414-1.414L9 18.586V5a1 1 0 012 0v12.586l2.829-2.829a1 1 0 011.414 1.414z" />
                 </svg>
-                <span>Bethel Faith Home</span> <br/>
-                 <span>P.o.Box 301 </span><br/>
-                <span>Londiani - Kenya</span>
+                <p>Bethel Faith Home</p> <br/>
+                 <p>P.o.Box 301 </p> <br/>
+                <p>Londiani - Kenya</span>
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <svg className="w-5 h-5 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
