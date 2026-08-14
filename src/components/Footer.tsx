@@ -9,12 +9,21 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center">
-                <span className="text-white text-xl font-bold">B</span>
-              </div>
-              <span className="text-xl font-bold">Bethel Home</span>
-            </div>
+            <div className="flex-shrink-0">
+  <a href="/" className="flex items-center gap-3">
+    <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center">
+      <img
+        src="/icon.png"
+        alt="Bethel Home Logo"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    <span className="text-xl font-bold text-gray-800">
+      Bethel Home
+    </span>
+  </a>
+</div>
             <p className="text-gray-400 leading-relaxed">
               Providing a safe, loving, and nurturing home for orphaned and vulnerable children since 2013.
             </p>
