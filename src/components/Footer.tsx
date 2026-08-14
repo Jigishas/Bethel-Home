@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
       />
     </div>
 
-    <span className="text-xl font-bold text-gray-800">
+    <span className="text-xl font-bold text-gray-200">
       Bethel Home
     </span>
   </a>
