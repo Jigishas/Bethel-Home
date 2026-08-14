@@ -7,7 +7,7 @@ const Impact: React.FC = () => {
     {
       name: "Timothy Kemei",
       role: "Egerton University Graduate • Mass Media",
-      image: "/timothy-kemei.jpeg",
+      image: "icon male.jpg",
       story:
         "Timothy Kemei is one of the many young people whose journey at Bethel Faith Home became a foundation for a meaningful and impactful life. Through education, guidance and the support he received, Timothy pursued his dreams and graduated from Egerton University with a degree in Mass Media. His journey demonstrates how investing in a child's education and potential can open doors to a brighter future. Timothy went on to serve in the Governor's office, where he contributed his skills and experience. His life remains a testament to the lasting impact of education, mentorship and the Bethel family.",
       highlight: "From Bethel to University and Public Service"
@@ -15,7 +15,7 @@ const Impact: React.FC = () => {
     {
       name: "Beatrice Koskei",
       role: "Nurse • United States",
-      image: "/beatrice-koskei.jpeg",
+      image: "icon.jpg",
       story:
         "Beatrice Koskei's story is one of determination, education and reaching beyond borders. The foundation she received at Bethel Faith Home helped prepare her to pursue her ambitions and build a career in healthcare. Today, Beatrice is a qualified nurse working in the United States. Her journey reflects what is possible when a child is given the opportunity to learn, grow and believe in a future beyond their circumstances.",
       highlight: "From Bethel to a Nursing Career in the USA"
@@ -23,7 +23,7 @@ const Impact: React.FC = () => {
     {
       name: "Eva Maritim",
       role: "Teacher • 10+ Years of Experience",
-      image: "/eva-maritim.jpeg",
+      image: "icon.jpg",
       story:
         "Eva Maritim has turned her own journey into an opportunity to positively influence the next generation. Today, she is a teacher with more than ten years of professional experience. Through her career, Eva continues to make a difference in the lives of young people by sharing knowledge, encouragement and guidance. Her story represents the power of education not only to transform an individual life, but also to create a ripple effect that reaches many others.",
       highlight: "From a Bethel Child to an Educator"
@@ -31,7 +31,7 @@ const Impact: React.FC = () => {
     {
       name: "A Bethel Success Story",
       role: "Banker & Business Person",
-      image: "/success-story-4.jpeg",
+      image: "icon male.jpg",
       story:
         "Another inspiring Bethel journey belongs to a former child of the home who has gone on to build a successful career in banking while also developing a path in business. This journey reflects the importance of equipping young people with education, confidence, life skills and the independence needed to navigate life beyond the home. Today, this former Bethel child represents the kind of success and self-reliance that the institution hopes to nurture in every young person.",
       highlight: "From Bethel to Banking and Entrepreneurship"
