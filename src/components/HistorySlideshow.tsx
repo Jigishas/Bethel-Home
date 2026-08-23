@@ -33,8 +33,8 @@ const HistorySlideshow: React.FC = () => {
               key={photo}
               src={photo}
               alt={`Bethel Home history photo ${index + 1}`}
-              className={`absolute inset-0 w-full h-full object-cover transition-[opacity,transform] duration-[1200ms] ease-in-out ${
-                index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1200ms] ease-in-out ${
+                index === currentIndex ? 'opacity-100' : 'opacity-0'
               }`}
             />
           ))}
