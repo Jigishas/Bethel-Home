@@ -92,7 +92,7 @@ const Team: React.FC = () => {
       bio: "Dr. Eva Gilger founded Bethel Faith Home in 1985 with a vision to provide loving care, protection and support to every child in need. Her founding vision established the foundation for Bethel Faith Home and its commitment to children.",
       image: (
         <img
-          src="/icon female.jpeg"
+          src="/icon female.jpg"
           alt="Dr. Eva Gilger"
           className="w-full h-full object-cover"
         />
@@ -104,7 +104,7 @@ const Team: React.FC = () => {
       bio: "Lucy Kirui became the second director after Dr. Eva Gilger stepped down in 2002. A former principal of Londiani Girls, she was passionate about ensuring every child received quality education and the tools needed to succeed in life.",
       image: (
         <img
-          src="/icon female.jpeg"
+          src="/icon female.jpg"
           alt="Lucy Kirui"
           className="w-full h-full object-cover"
         />
@@ -116,7 +116,7 @@ const Team: React.FC = () => {
       bio: "Dr. Hosea Poriot became the third director following the passing of Lucy Kirui in November 2013. He was dedicated to providing comprehensive healthcare, emotional support and holistic care to all the children at Bethel Faith Home.",
       image: (
         <img
-          src="/icon male.jpeg"
+          src="/icon male.jpg"
           alt="Dr. Hosea Poriot"
           className="w-full h-full object-cover"
         />
@@ -128,7 +128,7 @@ const Team: React.FC = () => {
       bio: "Rev. Paul Matingwony took over leadership of the institution in 2014. He focused on developing innovative programmes that help children build life skills, discover their unique talents and prepare for a meaningful future.",
       image: (
         <img
-          src="/icon male.jpeg"
+          src="/icon male.jpg"
           alt="Rev. Paul Matingwony"
           className="w-full h-full object-cover"
         />
@@ -140,7 +140,7 @@ const Team: React.FC = () => {
       bio: "Pastor Rose Kirui took over leadership in December 2023 and continues to serve as the Director and Head of Institution. She works tirelessly to provide love, care and support to every child at Bethel Faith Home while guiding the institution toward a stronger future.",
       image: (
         <img
-          src="/icon female.jpeg"
+          src="/icon female.jpg"
           alt="Pastor Rose Kirui"
           className="w-full h-full object-cover"
         />

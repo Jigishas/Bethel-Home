@@ -11,7 +11,7 @@ const FAQ: React.FC = () => {
   const faqItems: FAQItem[] = [
     {
       question: "How can I sponsor a child at Bethel Home?",
-      answer: "Sponsoring a child is a meaningful way to make a lasting impact. You can sponsor a child for as little as $50 per month, which covers their education, healthcare, nutrition, and emotional support. Simply fill out the contact form or call us directly to learn more about sponsorship programs and how you can build a connection with the child you support."
+      answer: "Sponsoring a child is a meaningful way to make a lasting impact. You can sponsor a child for as little as Ksh 100 per month, which covers their education, healthcare, nutrition, and emotional support. Simply fill out the contact form or call us directly to learn more about sponsorship programs and how you can build a connection with the child you support."
     },
     {
       question: "What percentage of my donation goes directly to the children?",
@@ -19,7 +19,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: "Can I visit Bethel Home in person?",
-      answer: "Absolutely! We welcome visitors by appointment Tuesday through Saturday, 10 AM to 4 PM. We recommend scheduling your visit at least one week in advance. During your visit, you'll meet our children and staff, see our facilities, and learn more about our programs. We also offer virtual tours for those who cannot visit in person."
+      answer: "Absolutely! We welcome visitors everyday, 10 AM to 4 PM. We recommend scheduling your visit at least one week in advance. During your visit, you'll meet our children and staff, see our facilities, and learn more about our programs. We also offer virtual tours for those who cannot visit in person."
     },
     {
       question: "How do you ensure the privacy and safety of the children?",
@@ -39,7 +39,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: "Is my donation tax-deductible?",
-      answer: "Yes, Bethel Home is a registered 501(c)(3) non-profit organization. All donations are tax-deductible to the extent allowed by law. You will receive a receipt for your donation that you can use for tax purposes. For year-end tax planning, we also provide annual contribution statements for monthly donors."
+      answer: "Yes, Bethel Home is a registered non-profit organization. All donations are tax-deductible to the extent allowed by law. You will receive a receipt for your donation that you can use for tax purposes. For year-end tax planning, we also provide annual contribution statements for monthly donors."
     }
   ];
 

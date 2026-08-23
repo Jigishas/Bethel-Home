@@ -11,7 +11,7 @@ interface DonationTier {
 const DonationSection: React.FC = () => {
   const donationTiers: DonationTier[] = [
     {
-      amount: "$25",
+      amount: "Ksh 100",
       title: "Meal Sponsor",
       description: "Provide nutritious meals for one child for an entire week",
       icon: (
@@ -22,7 +22,7 @@ const DonationSection: React.FC = () => {
       popular: false
     },
     {
-      amount: "$50",
+      amount: "Ksh 500",
       title: "Education Fund",
       description: "Cover school supplies, books, and educational materials for one month",
       icon: (
@@ -33,7 +33,7 @@ const DonationSection: React.FC = () => {
       popular: true
     },
     {
-      amount: "$100",
+      amount: "Ksh 300",
       title: "Healthcare",
       description: "Provide medical check-ups, vitamins, and essential healthcare for one month",
       icon: (
@@ -44,7 +44,7 @@ const DonationSection: React.FC = () => {
       popular: false
     },
     {
-      amount: "$200",
+      amount: "Ksh 2000",
       title: "Full Sponsorship",
       description: "Cover all expenses - shelter, food, education, and healthcare for one month",
       icon: (
