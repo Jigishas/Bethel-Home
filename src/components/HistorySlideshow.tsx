@@ -24,37 +24,46 @@ const HistorySlideshow: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full h-[320px] md:h-[480px] overflow-hidden bg-gray-900">
-      {/* Slides */}
-      {historyPhotos.map((photo, index) => (
-        <img
-          key={photo}
-          src={photo}
-          alt={`Bethel Home history photo ${index + 1}`}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${
-            index === currentIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-        />
-      ))}
+    <section className="py-12 md:py-16 bg-gradient-to-b from-amber-50 to-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative h-[320px] md:h-[480px] overflow-hidden rounded-3xl shadow-xl ring-1 ring-black/5 bg-gray-900">
+          {/* Slides */}
+          {historyPhotos.map((photo, index) => (
+            <img
+              key={photo}
+              src={photo}
+              alt={`Bethel Home history photo ${index + 1}`}
+              className={`absolute inset-0 w-full h-full object-cover transition-[opacity,transform] duration-[1200ms] ease-in-out ${
+                index === currentIndex ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+              }`}
+            />
+          ))}
 
-      {/* Subtle gradient overlay for depth */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+          {/* Gradient overlay for depth */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/10 pointer-events-none" />
 
-      {/* Dot indicators */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 z-10">
-        {historyPhotos.map((_, index) => (
-          <button
-            key={index}
-            type="button"
-            onClick={() => goToSlide(index)}
-            aria-label={`Go to history photo ${index + 1}`}
-            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
-              index === currentIndex
-                ? 'bg-amber-400 scale-125'
-                : 'bg-white/60 hover:bg-white/90'
-            }`}
-          />
-        ))}
+          {/* Photo counter */}
+          <div className="absolute top-4 right-4 z-10 bg-white/20 backdrop-blur-md text-white text-sm font-medium px-3 py-1.5 rounded-full ring-1 ring-white/30">
+            {currentIndex + 1} / {historyPhotos.length}
+          </div>
+
+          {/* Dot indicators */}
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 z-10 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-full ring-1 ring-white/25 shadow-lg">
+            {historyPhotos.map((_, index) => (
+              <button
+                key={index}
+                type="button"
+                onClick={() => goToSlide(index)}
+                aria-label={`Go to history photo ${index + 1}`}
+                className={`h-2.5 rounded-full transition-all duration-300 ${
+                  index === currentIndex
+                    ? 'w-6 bg-amber-400'
+                    : 'w-2.5 bg-white/60 hover:bg-white/90'
+                }`}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
