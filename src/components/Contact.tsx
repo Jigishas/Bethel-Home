@@ -206,8 +206,38 @@ const Contact: React.FC = () => {
               We welcome visitors by appointment. Please contact us in advance to schedule your visit.
             </p>
           </div>
-          <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.781855780586!2d35.60717229999998!3d-0.15396929999999118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a139142f69793%3A0xfe53eb86efe03a2c!2sBethel%20children's%20home!5e1!3m2!1sen!2ske!4v1788939813856!5m2!1sen!2ske" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+          <div className="space-y-4">
+            <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.781855780586!2d35.60717229999998!3d-0.15396929999999118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a139142f69793%3A0xfe53eb86efe03a2c!2sBethel%20children's%20home!5e1!3m2!1sen!2ske!4v1788939813856!5m2!1sen!2ske" 
+                width="100%" 
+                height="350" 
+                style={{border:0}} 
+                allowFullScreen 
+                loading="lazy" 
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="Bethel Children's Home Location"
+              ></iframe>
+            </div>
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Bethel+Children's+Home+Londiani+Kenya"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl p-4 transition-colors"
+            >
+              <div className="flex-shrink-0 w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold text-gray-800">Get Directions to Bethel Children's Home</p>
+                <p className="text-sm text-gray-600">Londiani, Kenya · Click for turn-by-turn navigation</p>
+              </div>
+              <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
           </div>
 
           {/* CTA Card */}
