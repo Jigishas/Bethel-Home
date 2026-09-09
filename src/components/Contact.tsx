@@ -206,6 +206,9 @@ const Contact: React.FC = () => {
               We welcome visitors by appointment. Please contact us in advance to schedule your visit.
             </p>
           </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3802.781855780586!2d35.60717229999998!3d-0.15396929999999118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182a139142f69793%3A0xfe53eb86efe03a2c!2sBethel%20children's%20home!5e1!3m2!1sen!2ske!4v1788939813856!5m2!1sen!2ske" width="600" height="450" style={{border:0}} allowFullScreen loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+          </div>
 
           {/* CTA Card */}
           <div className="lg:col-span-2 bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl p-8 shadow-xl text-white flex flex-col justify-center">
@@ -233,6 +236,7 @@ const Contact: React.FC = () => {
                 Email Us
               </a>
             </div>
+            
           </div>
         </div>
       </div>
